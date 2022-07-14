@@ -8,7 +8,7 @@ let PupilaDerBtn = document.getElementById('pupilaDer-btn');
 let HocicoBtn = document.getElementById('hocico-btn');
 let NarizBtn = document.getElementById('nariz-btn');
 let LenguaBtn = document.getElementById('lengua-btn');
-
+let Reiniciar = document.getElementById('reiniciar');
 let colors = [
     'brown',
     'black',
@@ -95,3 +95,10 @@ LenguaBtn.addEventListener("click", () => {
     document.querySelector(".lengua").style.backgroundColor = colors[counter10];
     counter10 = setCounterValue(counter10);
 });
+
+Reiniciar.addEventListener('click', () => {
+    document.querySelectorAll(".p").forEach
+    ((item) => {
+        item.style.backgroundColor = ''
+})
+})
